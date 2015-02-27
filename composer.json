@@ -1,0 +1,33 @@
+{
+  "name"        : "pear/http_request2_adapter_curladvanced",
+  "description" : "Provides an easy way to perform HTTP requests.",
+  "type"        : "library",
+  "keywords"    : [ "http", "request_curladvanced", "pear", "curl" ],
+  "homepage"    : "https://p1ratrulezzz.me",
+  "license"     : "BSD-3-Clause",
+  "authors"     : [
+    {
+      "name"  : "P1ratRuleZZZ",
+      "email" : "webmaster@p1ratrulezzz.me"
+    }
+  ],
+  "require"     : {
+    "php"                 : ">=5.2.0",
+    "pear/net_url2"       : ">=2.0.0",
+    "pear/pear_exception" : "*"
+  },
+  "suggest"     : {
+    "ext-fileinfo" : "Adds support for looking up mime-types using finfo.",
+    "ext-zlib"     : "Allows handling gzip compressed responses.",
+    "lib-curl"     : "Allows using cURL as a request backend.",
+    "lib-openssl"  : "Allows handling SSL requests when not using cURL."
+  },
+  "autoload": {
+    "psr-0": {
+      "HTTP_Request2" : ""
+    }
+  },
+  "include-path": [
+    "./"
+  ]
+}
